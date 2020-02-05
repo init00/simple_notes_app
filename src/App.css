@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* page header styling */
+.sub-header {
+  font-size: 1rem;
+  color: #263238;
+}
+
+.sub-header:hover {
+  color: #4f5b62;
+  text-decoration: none;
+}
+
+.page-header {
+  margin-top: 5rem;
+  font-size: 2rem;
+  color: #263238;
+}
+
+.page-header:hover {
+  color: #4f5b62;
+  text-decoration: none;
+}
+
+/* button styling */
+.styled-button {
+  color: #f9f9f9;
+  background-color: #263238;
+  transition: all 0.5s ease-out;
+}
+
+.styled-button:hover {
+  transform: scale(1.04);
+  box-shadow: aqua 2px;
+  background-color: gray;
+}
+
+/* spinner styling */
+.styled-spinner {
+  display: block;
+  text-align: center;
+  margin: 7rem;
+}
+
+/* notecards-area styling */
+@media screen and (min-width: 651px){
+  .note-card-subtitle {
+    font-size: small;
+  }
+  .notecards-area {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .notes-textarea-enclosure {
+    /* margin-left: 15rem; */
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .notecards-area {
+    padding: .2rem;
+  }
+
+  .notecards-area {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.notecards-area {
+  display: inherit;
+  text-align: center;
+  background-color: palegoldenrod;
+  color: #4f5b62;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  padding: .1rem;
+}
+
+/* individual note-card styling */
+.note-card {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: beige;
+  border-radius: 1rem;
+}
+
+.note-card:hover {
+  transform: scale(1.02);
+  transition: all .5s ease-out;
+  box-shadow: 1px 1px darkgray;
+}
+
+.note-card-title {
+  font-weight: 700;
+  color: gray;
+  grid-area: 1 / 1 / span 1/ span 2;
+}
+
+/* styling for pre-formatted tags */
+pre {
+  text-align: left;
+  color: lightslategray;
+  font-family: sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* styling for app-enclosure */
+.app-enclosure {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* styling for edit delete buttons on the notecard */
+.crud-button {
+  color: gray;
+  outline: none;
+  border: none;
+  /* margin-left: 0.5rem; */
+  text-decoration: none;
+}
+
+.crud-button:hover {
+  transform: scale(1.1);
+  color: #4f5b62;
+  text-decoration: none;
+  background-color: beige;
+}
+
+/* writing/editing note area styling */
+.note-area {
+  display: grid;
+  text-align: left;
+  /* grid-template-columns: auto auto auto; */
+  /* grid-gap: 20rem; */
+}
+
+.new-note-area {
+  margin-bottom: 3rem;
+  border: none;
+  outline: none;
+}
+
+.notes-textarea-enclosure {
+  /* margin-left: 15rem; */
+  background-color: gray;
+  border-radius: 2rem;
+}
+
+.notes-textarea {
+  border-radius: 0;
+  background-color: lightgray;
+}
+
+.notes-titlearea {
+  border-radius: 0;
+  background-color: beige;
+}
+
+/* modal header, footer */
+.modal-dailog {
+  margin-top: 20rem;
+}
+
+.modal-header, .modal-footer {
+  outline: none;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  background-color: palegoldenrod;
+}
