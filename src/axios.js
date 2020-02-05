@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // ######################
 
-// Configure your axios settings here.
+// Configure your axios isntance here.
 
 // ######################
 export default instance
